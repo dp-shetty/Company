@@ -1,0 +1,303 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+/* .main{
+    position: absolute; 
+    width: 1320px;
+    height: auto;
+} */
+nav{
+    background-color: white;
+    padding: 20px;
+    width: 1380px;
+    height: 70px;
+    transition: 0.3s;
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+}
+ul,li{
+    display: inline;
+}
+ul{
+    margin-left: 264px;
+}
+nav ul li a{
+    margin-left: 39px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: black; 
+}
+
+.brand-logo{
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin-left: 50px;
+    color:#222222;
+    font-family: "Raleway", sans-serif;
+}
+.brand-logo span{
+    color: #1bbd36;
+}
+nav li a:hover{
+    text-decoration: none;
+    color: #1bbd36;
+    transition: all 0.5s;
+}
+.fa-brands{
+    font-weight: lighter;
+    word-spacing: 2px;
+    margin: -13px;
+    color: #a0a0a0;
+}
+.fa-brands:hover{
+    color: #1bbd36;
+    transition: all 0.5s;
+}
+.vline{
+    margin-left: 10px;
+    color: #a0a0a0;
+}
+.icons a{
+    margin-right: -5px;
+}
+.header{
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: center; */
+    background-color:#1bbd36;
+    position: absolute;
+    top: 70px;
+    z-index: -1;
+}
+.header h5{
+    margin-left: 25px;
+    margin-top: 15px;
+    color: white;
+    font-size: 28px;
+    font-weight: normal;
+}
+.header a{
+    margin-left: 1000px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: -30px;
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+}
+.header p{
+    margin-left: 1065px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: -20px;
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+}
+.buttons{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 200px;
+    left: 550px;
+}
+.btn1,.btn2,.btn3,.btn4{
+    width: 65px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}
+.btn1{
+    background-color:#1bbd36;
+}
+.btn2{
+    background-color:transparent ;
+}
+.btn3{
+    background-color:transparent ;
+}
+.btn4{
+    background-color:transparent ;
+}
+.btn2:hover{
+    background-color: #1bbd36;
+    transition: all 0.5s;
+    color: white;
+}
+.btn3:hover{
+    background-color: #1bbd36;
+    transition: all 0.5s;
+    color: white;
+}
+.btn4:hover{
+    background-color: #1bbd36;
+    transition: all 0.5s;
+    color: white;
+}
+.body{
+    z-index: -1;
+}
+.box1{
+    height: 360px; width: 365px;
+    /* border: 2px solid red; */
+    position: relative;
+    top: 300px;
+    left: 80px;
+    /* margin-top: 129px;
+    margin-left: 500px; */
+    /* transition: all 0.6s; */
+    overflow: hidden;
+    transition: all 0.9s;
+}
+.box1 img {
+    height: 356px; width: 361px;
+    /* top: -1px; */
+    transition: all 0.6s ;
+    /* position: absolute; */
+}
+.box2{
+    height: 270px; width: 365px;
+    position: relative;
+    top: -61px;
+    left: 465px;
+    transition: all 0.6s;
+    overflow: hidden;
+}
+.box2 img{
+    height: 270px; width: 361px;
+    transition: all 0.6s ;
+}
+.box3{
+    height: 229.5px; width: 365px;
+    position: relative;
+    top: -331px;
+    left: 850px;
+    transition: all 0.6s;
+    overflow: hidden;
+}
+.box3 img{
+    height: 229.5px; width: 361px;
+    transition: all 0.6s ;
+}
+.box4{
+    height: 229.5px; width: 365px;
+    position: relative;
+    top: -305px;
+    left: 850px;
+    transition: all 0.6s;
+    overflow: hidden;
+}
+.box4 img{
+    height: 229.5px; width: 361px;
+    transition: all 0.6s ;
+}
+.box5{
+    height: 582px;
+    width: 361px;
+    position: relative;
+    top: -497px;
+    left: 465px;
+    transition: all 0.6s;
+    overflow: hidden;
+}
+.box5 img{
+    height: 582px; width: 361px;
+    transition: all 0.6s ;
+}
+.box6{
+    height: 582px;
+    width: 361px;
+    position: relative;
+    top: -993px;
+    left: 82px;
+    transition: all 0.6s;
+    overflow: hidden;
+}
+.box6 img{
+    height: 582px; width: 361px;
+    transition: all 0.6s ;
+}
+.box7{
+    height: 229.5px; width: 365px;
+    position: relative;
+    top: -1448px;
+    left: 850px;
+    transition: all 0.6s;
+    overflow: hidden;
+}
+.box7 img{
+    height: 229.5px; width: 361px;
+    transition: all 0.6s ;
+}
+.box8{
+    height: 229.5px; width: 365px;
+    position: relative;
+    top: -1427px;
+    left: 850px;
+    transition: all 0.6s;
+    overflow: hidden;
+}
+.box8 img{
+    height: 229.5px; width: 361px;
+    transition: all 0.6s ;
+}
+.box9{
+    height: 229.5px; width: 361px;
+    position: relative;
+    top: -1519px;
+    left: 466px;
+    transition: all 0.6s;
+    overflow: hidden;
+}
+.box9 img{
+    height: 229.5px; width: 361px;
+    transition: all 0.6s ;
+}
+.image1:hover+.con1,.image2:hover+.con1,.image3:hover+.con1,.image4:hover+.con1,.image5:hover+.con1,.image6:hover+.con1,.image7:hover+.con1,.image8:hover+.con1,.image9:hover+.con1{
+    transform: translate(0px,-10px);
+    z-index: 1;
+    transition: all 2s;
+}
+/* img:hover+.con1{
+   z-index: 1;
+} */
+.con1{
+    background-color: rgba(255, 255, 255, 0.829);
+    position: absolute;
+    bottom: 15px;
+    /* right: 20px; */
+    left: 10px;
+    
+    width: 336px;
+    height: 60px;
+    z-index: -1;
+    transition: 0.9s;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.head{
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+p{
+    margin-left: -45px;
+    margin-top: 25px;
+    margin-top: 30px;
+}
+.root{
+margin-left: 230px;
+margin-top: 20px;
+letter-spacing: 5px;
+}
