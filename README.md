@@ -1,2 +1,3 @@
 # Company
-This is a clone website of Company, Originally available in bootstrapmade
+This is a clone of a website named "company" of bootstrapmade
+done using only html and css
